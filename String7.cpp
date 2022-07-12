@@ -1,4 +1,4 @@
-//Count Small letter int string 
+			//Count Small letter int string 
 #include<iostream>
 using namespace std;
 
