@@ -2,23 +2,24 @@
 
 #include<iostream>
 using namespace std;
-void Display(char *str)
+string Display(string str)
 {
     
-    while (*str!='\0')
+    int l = str.length();
+    int k= 0;
+    for(int i=l-1;i>=0;i--)
     {
-        cout<<*str<<endl;
-        str++;
+      cout<<str[i];
     }
+    ptr[k] = '\n';
+    return ptr;
 }
 int main()
 {
     char Arr[]="Hello";
-    int i=0;
-    
-    Display(Arr);
         
+    string rev = Display(Arr);
 
-
+      cout<<rev;   
     return 0;
 }

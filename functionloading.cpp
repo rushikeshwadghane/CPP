@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-class Demo
+class  Demo
 {
     public:
         int Addition(int no1,  int no2)
@@ -24,6 +24,11 @@ class Demo
             ans = no1 + no2 + no3 + no4;
             return ans;
         }
+};
+
+class Derived: public Demo
+{
+
 };
 
 int main()

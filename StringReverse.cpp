@@ -1,6 +1,8 @@
 // Reverse string 
 #include<iostream>
+#include<string.h>
 using namespace std;
+
 void  strrevX(char *str)
 {
    char *start = str;
