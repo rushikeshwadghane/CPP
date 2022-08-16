@@ -4,7 +4,7 @@
 using namespace std;
 string Display(string str)
 {
-    
+    string ptr;
     int l = str.length();
     int k= 0;
     for(int i=l-1;i>=0;i--)
